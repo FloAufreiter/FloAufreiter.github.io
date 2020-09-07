@@ -1,0 +1,37 @@
+@font-face {
+    font-family:"ArchitectsDaughter-Regular";
+    src: url("./fonts/ArchitectsDaughter-Regular.ttf") format("truetype");
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("img/Background.jpg") repeat;
+    background-size: 15%;
+    color: white;
+    font-family:"ArchitectsDaughter-Regular";;
+    font-size: 20px;
+    overflow-x: hidden;
+} 
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.336);
+}
+
+a {
+    font-weight: bold;
+    color:  #00f7ff;;
+}
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+
+
+
