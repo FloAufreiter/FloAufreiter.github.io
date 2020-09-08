@@ -30,6 +30,10 @@ body {
     overflow-x: hidden;
 }
 
+body, html {
+    overflow-x: hidden;
+}
+
 /* social-media */
 .social-icon {
     font-size: 3rem;
