@@ -78,7 +78,7 @@ hr {
 
 /*---video resize---*/
 .auto-resizable-iframe {
-    max-width: 700px;
+    max-width: 44rem;
     margin: 0px auto;
   }
   
