@@ -20,10 +20,6 @@ body {
     font-size: 25px;
 } 
 
-body, html {
-    overflow-x: hidden;
-}
-
 .overlay {
     position: absolute;
     min-height: 100%;
@@ -31,6 +27,7 @@ body, html {
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.336);
+    overflow-x: hidden;
 }
 
 /* social-media */
@@ -55,7 +52,7 @@ body, html {
     color: #1DA1F2;
 }
 
-.fa-itunes:hover, .fa-amazon:hover, .fa-google-play:hover, .fa-spotify:hover, .fa-deezer:hover {
+.fa-itunes:hover, .fa-amazon:hover, .fa-google-play:hover, .fa-spotify:hover, .fa-deezer:hover, .fa-napster:hover {
     color: #e5ff00;
 }
 
@@ -97,6 +94,7 @@ body, html {
 /*---foto gallery---*/
 .img-thumbnail {
     height: 10rem;
+    width: auto;
 }
 
 hr {
@@ -107,6 +105,7 @@ hr {
     border-top: 3px solid white;
   }
 
-h1 {
-    padding: 1.5rem;
+.logo {
+    width: 1000px;
+    height: auto;
 }
