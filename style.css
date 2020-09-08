@@ -20,11 +20,6 @@ body {
     font-size: 25px;
 } 
 
-/* html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-} */
-
 .overlay {
     position: absolute;
     min-height: 100%;
@@ -32,11 +27,12 @@ body {
     left: 0;
     top: 0;
     background: rgba(0, 0, 0, 0.336);
+    overflow-x: hidden;
 }
 
-/* body, html {
+body, html {
     overflow-x: hidden;
-} */
+}
 
 /* social-media */
 .social-icon {
