@@ -92,8 +92,18 @@ body {
 }
 
 /*---foto gallery---*/
-.img-thumbnail {
-    height: 10rem;
+/* .img-thumbnail {
+    height: 20rem;
+    width: auto;
+} */
+
+.qformat {
+    height: 20rem;
+    width: auto;
+}
+
+.hformat {
+    height: 28rem;
     width: auto;
 }
 
