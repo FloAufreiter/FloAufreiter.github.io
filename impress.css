@@ -11,14 +11,15 @@ body {
     color: white;
     font-family:"ArchitectsDaughter-Regular";;
     font-size: 20px;
-    overflow-x: hidden;
 } 
 
-.overlay {
-    min-height: 100%;
-    min-width: 100%;
-    background: rgba(0, 0, 0, 0.336);
+html, body {
+    max-width: 100%;
     overflow-x: hidden;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.336);
 }
 
 a {
