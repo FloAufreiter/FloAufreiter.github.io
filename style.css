@@ -20,19 +20,15 @@ body {
     font-size: 25px;
 } 
 
-.overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(0, 0, 0, 0.336);
+html, body {
+    max-width: 100%;
     overflow-x: hidden;
 }
 
-/* body, html {
-    overflow-x: hidden;
-} */
+.overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.336);
+}
 
 /* social-media */
 .social-icon {
