@@ -71,7 +71,7 @@ body {
 
 .social-btns{
     text-align: center;
-    padding: 1.5rem;
+    padding: 1.0rem;
 }
 
 /*---video resize---*/
@@ -111,7 +111,7 @@ body {
 }
 
 hr {
-    width: 72%;
+    width: 100%;
     margin-top: 1rem;
     margin-bottom: 1rem;
     border: 0;
