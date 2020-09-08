@@ -35,7 +35,7 @@ body {
 
 /* social-media */
 .social-icon {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
 }
 
@@ -59,19 +59,8 @@ body {
     color: #e5ff00;
 }
 
-
-.fa {
-    padding: 0.5rem;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-}
-
 .social-btns{
     text-align: center;
-    padding: 1.0rem;
 }
 
 /*---video resize---*/
