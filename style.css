@@ -20,17 +20,17 @@ body {
     font-size: 25px;
 } 
 
-html, body {
+/* html, body {
     max-width: 100%;
     overflow-x: hidden;
-}
+} */
 
 .overlay {
-    /* position: absolute; */
+    position: absolute;
     min-height: 100%;
     min-width: 100%;
-    /* left: 0;
-    top: 0; */
+    left: 0;
+    top: 0;
     background: rgba(0, 0, 0, 0.336);
 }
 
