@@ -11,10 +11,10 @@
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: url("img/Background.jpg") repeat;
-    background-size: 15%;
+    /* margin: 0;
+    padding: 0; */
+    /* background: url("img/Background.jpg") repeat;
+    background-size: 15%; */
     color: white;
     font-family:"ArchitectsDaughter-Regular";;
     font-size: 25px;
@@ -25,12 +25,14 @@ body {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, 0.336);
-}
-
-body, html {
+    background: url("img/Background.jpg") repeat;
+    /* background: rgba(0, 0, 0, 0.336); */
     overflow-x: hidden;
 }
+
+/* body, html {
+    overflow-x: hidden;
+} */
 
 /* social-media */
 .social-icon {
