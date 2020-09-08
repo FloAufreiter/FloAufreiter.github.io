@@ -18,8 +18,12 @@ body {
     color: white;
     font-family:"ArchitectsDaughter-Regular";;
     font-size: 25px;
-    overflow-x: hidden;
 } 
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 .overlay {
     position: absolute;
