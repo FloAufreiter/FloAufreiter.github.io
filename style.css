@@ -96,16 +96,26 @@ hr {
     height: 100%;
 }
 
-/*---foto gallery---*/
-
-/* .qformat {
-    height: 20rem;
-    width: auto;
-    object-fit:scale-down;
+@media (min-width: 0px) {  
+    h1 {font-size:1.5rem;} 
+    h2 {font-size:1.0rem;} 
+    h3 {font-size:0.8rem;} 
+}
+   
+@media (min-width: 768px) {  
+    h1 {font-size:2.5rem;}
+    h2 {font-size:2.0rem;} 
+    h3 {font-size:1.5rem;} 
 }
 
-.hformat {
-    height: 28rem;
-    width: auto;
-    object-fit:scale-down;
-} */
+@media (min-width: 992px) { 
+    h1 {font-size:2.8rem;}
+    h2 {font-size:2.3rem;} 
+    h3 {font-size:1.8rem;} 
+}
+
+@media (min-width: 1200px) {  
+    h1 {font-size:3.0rem;}
+    h2 {font-size:2.5rem;} 
+    h3 {font-size:2.0rem;} 
+}
