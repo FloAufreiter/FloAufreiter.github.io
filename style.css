@@ -29,6 +29,19 @@ body {
     overflow-x: hidden;
 }
 
+hr {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 3px solid white;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
 /* body, html {
     overflow-x: hidden;
 } */
@@ -84,30 +97,15 @@ body {
 }
 
 /*---foto gallery---*/
-/* .img-thumbnail {
-    height: 20rem;
-    width: auto;
-} */
 
-.qformat {
+/* .qformat {
     height: 20rem;
     width: auto;
+    object-fit:scale-down;
 }
 
 .hformat {
     height: 28rem;
     width: auto;
-}
-
-hr {
-    width: 100%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    border: 0;
-    border-top: 3px solid white;
-  }
-
-.logo {
-    width: 100%;
-    height: auto;
-}
+    object-fit:scale-down;
+} */
