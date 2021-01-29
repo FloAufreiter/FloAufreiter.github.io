@@ -3,7 +3,7 @@
     src: url("./fonts/ArchitectsDaughter-Regular.ttf") format("truetype");
   }
 
-.start-pic, .video{
+.start-pic, .video {
     padding: .25rem;
     background-color: #fff;
     border: 1px solid #dee2e6;
